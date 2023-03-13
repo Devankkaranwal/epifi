@@ -1,0 +1,639 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A98E5F6829BEEC0200BE6051 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A98E5F6729BEEC0200BE6051 /* AppDelegate.swift */; };
+		A98E5F6A29BEEC0200BE6051 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A98E5F6929BEEC0200BE6051 /* SceneDelegate.swift */; };
+		A98E5F6F29BEEC0200BE6051 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A98E5F6D29BEEC0200BE6051 /* Main.storyboard */; };
+		A98E5F7129BEEC0400BE6051 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A98E5F7029BEEC0400BE6051 /* Assets.xcassets */; };
+		A98E5F7429BEEC0400BE6051 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A98E5F7229BEEC0400BE6051 /* LaunchScreen.storyboard */; };
+		A98E5F7F29BEEC0400BE6051 /* DemoepiFiProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A98E5F7E29BEEC0400BE6051 /* DemoepiFiProjectTests.swift */; };
+		A98E5F8929BEEC0400BE6051 /* DemoepiFiProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A98E5F8829BEEC0400BE6051 /* DemoepiFiProjectUITests.swift */; };
+		A98E5F8B29BEEC0400BE6051 /* DemoepiFiProjectUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A98E5F8A29BEEC0400BE6051 /* DemoepiFiProjectUITestsLaunchTests.swift */; };
+		A98E5F9E29BEEC3D00BE6051 /* GetWeatherInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = A98E5F9729BEEC3C00BE6051 /* GetWeatherInfo.swift */; };
+		A98E5F9F29BEEC3D00BE6051 /* SearchTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A98E5F9829BEEC3C00BE6051 /* SearchTableViewCell.swift */; };
+		A98E5FA129BEEC3D00BE6051 /* DataTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A98E5F9A29BEEC3D00BE6051 /* DataTableViewCell.swift */; };
+		A98E5FA229BEEC3D00BE6051 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = A98E5F9B29BEEC3D00BE6051 /* Location.swift */; };
+		A98E5FA329BEEC3D00BE6051 /* WeatherDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A98E5F9C29BEEC3D00BE6051 /* WeatherDetailViewController.swift */; };
+		A98E5FA429BEEC3D00BE6051 /* SearchWeatherInformationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A98E5F9D29BEEC3D00BE6051 /* SearchWeatherInformationViewController.swift */; };
+		A98E5FA629BEEF2E00BE6051 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A98E5FA529BEEF2E00BE6051 /* ViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A98E5F7B29BEEC0400BE6051 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A98E5F5C29BEEC0200BE6051 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A98E5F6329BEEC0200BE6051;
+			remoteInfo = DemoepiFiProject;
+		};
+		A98E5F8529BEEC0400BE6051 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A98E5F5C29BEEC0200BE6051 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A98E5F6329BEEC0200BE6051;
+			remoteInfo = DemoepiFiProject;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A98E5F6429BEEC0200BE6051 /* DemoepiFiProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DemoepiFiProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A98E5F6729BEEC0200BE6051 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A98E5F6929BEEC0200BE6051 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		A98E5F6E29BEEC0200BE6051 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A98E5F7029BEEC0400BE6051 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A98E5F7329BEEC0400BE6051 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A98E5F7529BEEC0400BE6051 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A98E5F7A29BEEC0400BE6051 /* DemoepiFiProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DemoepiFiProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A98E5F7E29BEEC0400BE6051 /* DemoepiFiProjectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoepiFiProjectTests.swift; sourceTree = "<group>"; };
+		A98E5F8429BEEC0400BE6051 /* DemoepiFiProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DemoepiFiProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A98E5F8829BEEC0400BE6051 /* DemoepiFiProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoepiFiProjectUITests.swift; sourceTree = "<group>"; };
+		A98E5F8A29BEEC0400BE6051 /* DemoepiFiProjectUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoepiFiProjectUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A98E5F9729BEEC3C00BE6051 /* GetWeatherInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetWeatherInfo.swift; sourceTree = "<group>"; };
+		A98E5F9829BEEC3C00BE6051 /* SearchTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchTableViewCell.swift; sourceTree = "<group>"; };
+		A98E5F9A29BEEC3D00BE6051 /* DataTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataTableViewCell.swift; sourceTree = "<group>"; };
+		A98E5F9B29BEEC3D00BE6051 /* Location.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
+		A98E5F9C29BEEC3D00BE6051 /* WeatherDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeatherDetailViewController.swift; sourceTree = "<group>"; };
+		A98E5F9D29BEEC3D00BE6051 /* SearchWeatherInformationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchWeatherInformationViewController.swift; sourceTree = "<group>"; };
+		A98E5FA529BEEF2E00BE6051 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A98E5F6129BEEC0200BE6051 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A98E5F7729BEEC0400BE6051 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A98E5F8129BEEC0400BE6051 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A98E5F5B29BEEC0200BE6051 = {
+			isa = PBXGroup;
+			children = (
+				A98E5F6629BEEC0200BE6051 /* DemoepiFiProject */,
+				A98E5F7D29BEEC0400BE6051 /* DemoepiFiProjectTests */,
+				A98E5F8729BEEC0400BE6051 /* DemoepiFiProjectUITests */,
+				A98E5F6529BEEC0200BE6051 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A98E5F6529BEEC0200BE6051 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A98E5F6429BEEC0200BE6051 /* DemoepiFiProject.app */,
+				A98E5F7A29BEEC0400BE6051 /* DemoepiFiProjectTests.xctest */,
+				A98E5F8429BEEC0400BE6051 /* DemoepiFiProjectUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A98E5F6629BEEC0200BE6051 /* DemoepiFiProject */ = {
+			isa = PBXGroup;
+			children = (
+				A98E5F6729BEEC0200BE6051 /* AppDelegate.swift */,
+				A98E5F6929BEEC0200BE6051 /* SceneDelegate.swift */,
+				A98E5FA729BEEF6500BE6051 /* Model */,
+				A98E5FA529BEEF2E00BE6051 /* ViewController.swift */,
+				A98E5F9D29BEEC3D00BE6051 /* SearchWeatherInformationViewController.swift */,
+				A98E5F9829BEEC3C00BE6051 /* SearchTableViewCell.swift */,
+				A98E5F9A29BEEC3D00BE6051 /* DataTableViewCell.swift */,
+				A98E5F9C29BEEC3D00BE6051 /* WeatherDetailViewController.swift */,
+				A98E5F6D29BEEC0200BE6051 /* Main.storyboard */,
+				A98E5F7029BEEC0400BE6051 /* Assets.xcassets */,
+				A98E5F7229BEEC0400BE6051 /* LaunchScreen.storyboard */,
+				A98E5F7529BEEC0400BE6051 /* Info.plist */,
+			);
+			path = DemoepiFiProject;
+			sourceTree = "<group>";
+		};
+		A98E5F7D29BEEC0400BE6051 /* DemoepiFiProjectTests */ = {
+			isa = PBXGroup;
+			children = (
+				A98E5F7E29BEEC0400BE6051 /* DemoepiFiProjectTests.swift */,
+			);
+			path = DemoepiFiProjectTests;
+			sourceTree = "<group>";
+		};
+		A98E5F8729BEEC0400BE6051 /* DemoepiFiProjectUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A98E5F8829BEEC0400BE6051 /* DemoepiFiProjectUITests.swift */,
+				A98E5F8A29BEEC0400BE6051 /* DemoepiFiProjectUITestsLaunchTests.swift */,
+			);
+			path = DemoepiFiProjectUITests;
+			sourceTree = "<group>";
+		};
+		A98E5FA729BEEF6500BE6051 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A98E5F9729BEEC3C00BE6051 /* GetWeatherInfo.swift */,
+				A98E5F9B29BEEC3D00BE6051 /* Location.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A98E5F6329BEEC0200BE6051 /* DemoepiFiProject */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A98E5F8E29BEEC0400BE6051 /* Build configuration list for PBXNativeTarget "DemoepiFiProject" */;
+			buildPhases = (
+				A98E5F6029BEEC0200BE6051 /* Sources */,
+				A98E5F6129BEEC0200BE6051 /* Frameworks */,
+				A98E5F6229BEEC0200BE6051 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DemoepiFiProject;
+			productName = DemoepiFiProject;
+			productReference = A98E5F6429BEEC0200BE6051 /* DemoepiFiProject.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A98E5F7929BEEC0400BE6051 /* DemoepiFiProjectTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A98E5F9129BEEC0400BE6051 /* Build configuration list for PBXNativeTarget "DemoepiFiProjectTests" */;
+			buildPhases = (
+				A98E5F7629BEEC0400BE6051 /* Sources */,
+				A98E5F7729BEEC0400BE6051 /* Frameworks */,
+				A98E5F7829BEEC0400BE6051 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A98E5F7C29BEEC0400BE6051 /* PBXTargetDependency */,
+			);
+			name = DemoepiFiProjectTests;
+			productName = DemoepiFiProjectTests;
+			productReference = A98E5F7A29BEEC0400BE6051 /* DemoepiFiProjectTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A98E5F8329BEEC0400BE6051 /* DemoepiFiProjectUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A98E5F9429BEEC0400BE6051 /* Build configuration list for PBXNativeTarget "DemoepiFiProjectUITests" */;
+			buildPhases = (
+				A98E5F8029BEEC0400BE6051 /* Sources */,
+				A98E5F8129BEEC0400BE6051 /* Frameworks */,
+				A98E5F8229BEEC0400BE6051 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A98E5F8629BEEC0400BE6051 /* PBXTargetDependency */,
+			);
+			name = DemoepiFiProjectUITests;
+			productName = DemoepiFiProjectUITests;
+			productReference = A98E5F8429BEEC0400BE6051 /* DemoepiFiProjectUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A98E5F5C29BEEC0200BE6051 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					A98E5F6329BEEC0200BE6051 = {
+						CreatedOnToolsVersion = 14.1;
+					};
+					A98E5F7929BEEC0400BE6051 = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = A98E5F6329BEEC0200BE6051;
+					};
+					A98E5F8329BEEC0400BE6051 = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = A98E5F6329BEEC0200BE6051;
+					};
+				};
+			};
+			buildConfigurationList = A98E5F5F29BEEC0200BE6051 /* Build configuration list for PBXProject "DemoepiFiProject" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A98E5F5B29BEEC0200BE6051;
+			productRefGroup = A98E5F6529BEEC0200BE6051 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A98E5F6329BEEC0200BE6051 /* DemoepiFiProject */,
+				A98E5F7929BEEC0400BE6051 /* DemoepiFiProjectTests */,
+				A98E5F8329BEEC0400BE6051 /* DemoepiFiProjectUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A98E5F6229BEEC0200BE6051 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A98E5F7429BEEC0400BE6051 /* LaunchScreen.storyboard in Resources */,
+				A98E5F7129BEEC0400BE6051 /* Assets.xcassets in Resources */,
+				A98E5F6F29BEEC0200BE6051 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A98E5F7829BEEC0400BE6051 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A98E5F8229BEEC0400BE6051 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A98E5F6029BEEC0200BE6051 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A98E5FA629BEEF2E00BE6051 /* ViewController.swift in Sources */,
+				A98E5FA329BEEC3D00BE6051 /* WeatherDetailViewController.swift in Sources */,
+				A98E5FA229BEEC3D00BE6051 /* Location.swift in Sources */,
+				A98E5FA429BEEC3D00BE6051 /* SearchWeatherInformationViewController.swift in Sources */,
+				A98E5F6829BEEC0200BE6051 /* AppDelegate.swift in Sources */,
+				A98E5F6A29BEEC0200BE6051 /* SceneDelegate.swift in Sources */,
+				A98E5F9E29BEEC3D00BE6051 /* GetWeatherInfo.swift in Sources */,
+				A98E5FA129BEEC3D00BE6051 /* DataTableViewCell.swift in Sources */,
+				A98E5F9F29BEEC3D00BE6051 /* SearchTableViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A98E5F7629BEEC0400BE6051 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A98E5F7F29BEEC0400BE6051 /* DemoepiFiProjectTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A98E5F8029BEEC0400BE6051 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A98E5F8929BEEC0400BE6051 /* DemoepiFiProjectUITests.swift in Sources */,
+				A98E5F8B29BEEC0400BE6051 /* DemoepiFiProjectUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A98E5F7C29BEEC0400BE6051 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A98E5F6329BEEC0200BE6051 /* DemoepiFiProject */;
+			targetProxy = A98E5F7B29BEEC0400BE6051 /* PBXContainerItemProxy */;
+		};
+		A98E5F8629BEEC0400BE6051 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A98E5F6329BEEC0200BE6051 /* DemoepiFiProject */;
+			targetProxy = A98E5F8529BEEC0400BE6051 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A98E5F6D29BEEC0200BE6051 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A98E5F6E29BEEC0200BE6051 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A98E5F7229BEEC0400BE6051 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A98E5F7329BEEC0400BE6051 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A98E5F8C29BEEC0400BE6051 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A98E5F8D29BEEC0400BE6051 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A98E5F8F29BEEC0400BE6051 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UY3JDRNNDF;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DemoepiFiProject/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.demoProject.DemoepiFiProject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A98E5F9029BEEC0400BE6051 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UY3JDRNNDF;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DemoepiFiProject/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.demoProject.DemoepiFiProject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A98E5F9229BEEC0400BE6051 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UY3JDRNNDF;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.demoProject.DemoepiFiProjectTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DemoepiFiProject.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DemoepiFiProject";
+			};
+			name = Debug;
+		};
+		A98E5F9329BEEC0400BE6051 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UY3JDRNNDF;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.demoProject.DemoepiFiProjectTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DemoepiFiProject.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DemoepiFiProject";
+			};
+			name = Release;
+		};
+		A98E5F9529BEEC0400BE6051 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UY3JDRNNDF;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.demoProject.DemoepiFiProjectUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DemoepiFiProject;
+			};
+			name = Debug;
+		};
+		A98E5F9629BEEC0400BE6051 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UY3JDRNNDF;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.demoProject.DemoepiFiProjectUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DemoepiFiProject;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A98E5F5F29BEEC0200BE6051 /* Build configuration list for PBXProject "DemoepiFiProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A98E5F8C29BEEC0400BE6051 /* Debug */,
+				A98E5F8D29BEEC0400BE6051 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A98E5F8E29BEEC0400BE6051 /* Build configuration list for PBXNativeTarget "DemoepiFiProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A98E5F8F29BEEC0400BE6051 /* Debug */,
+				A98E5F9029BEEC0400BE6051 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A98E5F9129BEEC0400BE6051 /* Build configuration list for PBXNativeTarget "DemoepiFiProjectTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A98E5F9229BEEC0400BE6051 /* Debug */,
+				A98E5F9329BEEC0400BE6051 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A98E5F9429BEEC0400BE6051 /* Build configuration list for PBXNativeTarget "DemoepiFiProjectUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A98E5F9529BEEC0400BE6051 /* Debug */,
+				A98E5F9629BEEC0400BE6051 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A98E5F5C29BEEC0200BE6051 /* Project object */;
+}
